@@ -1,0 +1,8 @@
+/* Custom base device tree for Raspberry Pi */
+/dts-v1/;
+
+/ {
+    compatible = "custom,rpi";
+    
+    /* Add your device tree nodes here */
+};
