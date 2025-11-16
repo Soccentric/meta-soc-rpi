@@ -50,4 +50,4 @@ IMAGE_INSTALL:append = " \
 # Password: root
 EXTRA_USERS_PARAMS = "usermod -P root root;"
 
-COMPATIBLE_MACHINE = "raspberrypi4-64"
+COMPATIBLE_MACHINE = "raspberrypi|raspberrypi-armv7|raspberrypi-armv8|raspberrypi-cm|raspberrypi-cm3|raspberrypi0|raspberrypi0-2w|raspberrypi0-2w-64|raspberrypi0-wifi|raspberrypi2|raspberrypi3|raspberrypi3-64|raspberrypi4|raspberrypi4-64|raspberrypi5"
